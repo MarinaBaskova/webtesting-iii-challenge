@@ -12,6 +12,7 @@ describe('<Dashboard/>', () => {
 
 		let lockDispl = getByText('Unlocked').innerHTML;
 		let gateDispl = getByText('Open').innerHTML;
+
 		let lockBtn = getByText('Lock Gate').innerHTML;
 		let gateBtn = getByText('Close Gate').innerHTML;
 
